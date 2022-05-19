@@ -12,6 +12,8 @@ inThisBuild(List(
   )
 ))
 
+usePgpKeyHex("54E70A1911B5DF2FDD4EC9E41431E809D482F276")
+
 sonatypeCredentialHost := "s01.oss.sonatype.org"
 sonatypeRepository := "https://s01.oss.sonatype.org/service/local"
 
